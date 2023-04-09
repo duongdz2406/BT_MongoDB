@@ -14,6 +14,6 @@ const NhanVienSchema = new mongoose.Schema({
     }
 })
 
-const NhanVienModel = new mongoose.model('nhanvien', NhanVienSchema);
+const NhanVienModel =  mongoose.model('nhanvien', NhanVienSchema);
 
 module.exports = NhanVienModel;
